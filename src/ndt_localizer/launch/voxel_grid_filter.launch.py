@@ -11,7 +11,7 @@ def generate_launch_description():
             'sync', default_value='false', description='Synchronize drivers'
         ),
         DeclareLaunchArgument(
-            'points_topic', default_value='/velodyne_points', description='Topic to subscribe to for points'
+            'points_topic', default_value='/ouster/points', description='Topic to subscribe to for points'
         ),
         DeclareLaunchArgument(
             'output_log', default_value='false', description='Enable output log'
